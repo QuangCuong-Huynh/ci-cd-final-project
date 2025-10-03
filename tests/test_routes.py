@@ -6,7 +6,6 @@ Test cases can be run with the following:
   coverage report -m
 """
 from unittest import TestCase
-from service import app
 from service.common import status  # HTTP Status Codes
 from service.routes import app, reset_counters
 
